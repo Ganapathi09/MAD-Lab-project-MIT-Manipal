@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+  <!-- Background Circle (Darker for Night Mode) -->
+  <path
+      android:fillColor="#222222"
+      android:pathData="M50,5 A45,45 0 1,1 50,95 A45,45 0 1,1 50,5"/>
+
+  <!-- Musical Note Stem (Soft White or Light Gray) -->
+  <path
+      android:fillColor="#CCCCCC"
+      android:pathData="M45,30 L60,25 L60,65 C60,70 55,75 50,75 C45,75 40,70 40,65 C40,60 45,55 50,55 L50,30 Z"/>
+
+  <!-- Bottom Circle (Music Note Base) -->
+  <path
+      android:fillColor="#CCCCCC"
+      android:pathData="M40,75 A8,8 0 1,1 40,91 A8,8 0 1,1 40,75"/>
+</vector>

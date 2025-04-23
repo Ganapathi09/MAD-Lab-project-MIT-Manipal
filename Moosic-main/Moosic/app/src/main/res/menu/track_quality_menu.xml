@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/kb12"
+        android:title="12kbps" />
+
+    <item
+        android:id="@+id/kb48"
+        android:title="48kbps" />
+
+    <item
+        android:id="@+id/kb96"
+        android:title="96kbps" />
+
+    <item
+        android:id="@+id/kb120"
+        android:title="160kbps" />
+
+    <item
+        android:id="@+id/kb320"
+        android:title="320kbps" />
+</menu>
